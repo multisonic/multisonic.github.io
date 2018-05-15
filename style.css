@@ -1,0 +1,50 @@
+body,
+html {
+    /* background-image: url("photo.jpeg");
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-shadow: 4px 3px 8px #333333;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 350px;
+}
+
+hr {
+    color: orange;
+    width: 65px;
+    border-width: 3px;
+}
+
+img {
+    border: 3px solid white;
+}
+/* .container {
+    border: 2px solid white;
+} */
+
+.notify {
+    margin-top: 200px;
+}
+
+.thebox {
+  background-position: center;
+  background-image: url("photo.jpeg");
+  background-size: cover;
+  height: 100%;
+  border: 10px solid grey;
+}
+
+.btn {
+    cursor: pointer;
+}
