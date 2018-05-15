@@ -1,11 +1,10 @@
 body,
 html {
-    /* background-image: url("photo.jpeg");
-    background-size: cover;
+    background-image: url("photo1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; */
+    background-position: center;
     height: 100%;
     width: 100%;
     background-color: black;
@@ -17,7 +16,7 @@ h1 {
     text-shadow: 4px 3px 8px #333333;
     font-weight: bold;
     text-align: center;
-    margin-top: 350px;
+    /* margin-top: 350px; */
 }
 
 hr {
@@ -33,17 +32,9 @@ img {
     border: 2px solid white;
 } */
 
-.notify {
-    margin-top: 200px;
-}
-
-.thebox {
-  background-position: center;
-  background-image: url("photo.jpeg");
-  background-size: cover;
-  height: 100%;
-  border: 10px solid grey;
-}
+/* .notify {
+    margin-top: 20px;
+} */
 
 .btn {
     cursor: pointer;
