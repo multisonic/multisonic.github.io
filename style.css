@@ -11,11 +11,12 @@ html {
 }
 
 h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
-    text-shadow: 4px 3px 8px #333333;
-    font-weight: bold;
+    text-shadow: 4px 3px 10px #333333;
+    font-weight:bolder;
     text-align: center;
+    text-transform: uppercase;
     /* margin-top: 350px; */
 }
 
@@ -38,4 +39,8 @@ img {
 
 .btn {
     cursor: pointer;
+}
+
+.btn-light {
+    border: 2px black;
 }
