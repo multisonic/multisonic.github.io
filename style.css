@@ -1,4 +1,4 @@
-body,
+/* body,
 html {
     background-image: url("photo1.jpg");
     background-size: cover;
@@ -17,7 +17,6 @@ h1 {
     font-weight:bolder;
     text-align: center;
     text-transform: uppercase;
-    /* margin-top: 350px; */
 }
 
 hr {
@@ -29,13 +28,13 @@ hr {
 img {
     border: 3px solid white;
 }
-/* .container {
+.container {
     border: 2px solid white;
-} */
+}
 
-/* .notify {
+.notify {
     margin-top: 20px;
-} */
+}
 
 .btn {
     cursor: pointer;
@@ -43,4 +42,21 @@ img {
 
 .btn-light {
     border: 2px black;
+} */
+
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.04)), url(ryan-pouncy-90524-unsplash.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    height: 90vh;
+    color: white;
+}
+.hero h1 {
+    width: 40vw;
+	position:absolute;
+    color: white;
+    margin-left: 20px;
+    margin-top: 75px;
+    font-size: 65px;
+    text-shadow: 2px 2px 9px #000;
 }
