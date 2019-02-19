@@ -48,15 +48,22 @@ img {
     background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.04)), url(ryan-pouncy-90524-unsplash.jpg);
     background-size: cover;
     background-position: center 0px;
-    height: 90vh;
+    height: 93vh;
     color: white;
 }
 .hero h1 {
     width: 40vw;
 	position:absolute;
     color: white;
-    margin-left: 20px;
+    margin-left: 60px;
     margin-top: 75px;
     font-size: 65px;
     text-shadow: 2px 2px 9px #000;
 }
+
+.description {
+    background-color: light-grey;
+    padding: 20px;
+    font-size: 24px;
+    font-style:italic;
+    }
